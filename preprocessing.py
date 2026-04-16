@@ -9,7 +9,7 @@ def save(ticker):
     Fetch the data for the given ticker (about 300 samples should be sufficient)
     """
     # Step 1: Fetch historical stock price data using Yahoo Finance
-    data = yf.download(ticker, start="2024-04-01", end="2026-01-01")
+    data = yf.download(ticker, start="2023-8-01", end="2025-04-01")
     closing_prices = data['Close'].values.reshape(-1, 1)
 
     # Step 3: Normalize the closing prices to scale between 0 and 1
