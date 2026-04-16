@@ -3,6 +3,8 @@ For loading in the reviews and sentiments from csv files, or from npz files
 """
 import numpy as np
 import torch
+from torch.utils.data import TensorDataset
+
 
 def load_AAPL():
     return npz_load("AAPL")
@@ -36,26 +38,24 @@ def npz_load(ticker):
     x_test = torch.from_numpy(x_test).float()
     y_test = torch.from_numpy(y_test).float().unsqueeze(1)
 
-    return x_train, y_train, x_test, y_test
+    # Convert to tensors if not already
+    x_train = torch.tensor(x_train, dtype=torch.float32)
+    y_train = torch.tensor(y_train, dtype=torch.long)  # or float depending on task
+
+    train_set = TensorDataset(y_train, x_train)
+    test_set = TensorDataset(y_test, x_test)
+
+    return train_set, test_set
 
 if __name__ == "__main__":
-    x_tr, y_tr, x_te, y_te = load_AAPL()
-    print(f"x_tr shape: {np.shape(x_tr)}")
-    print(f"y_tr shape: {np.shape(y_tr)}")
-    print(f"x_te shape: {np.shape(x_te)}")
-    print(f"y_te shape: {np.shape(y_te)}")
-    x_tr, y_tr, x_te, y_te = load_MSFT()
-    print(f"x_tr shape: {np.shape(x_tr)}")
-    print(f"y_tr shape: {np.shape(y_tr)}")
-    print(f"x_te shape: {np.shape(x_te)}")
-    print(f"y_te shape: {np.shape(y_te)}")
-    x_tr, y_tr, x_te, y_te = load_TSLA()
-    print(f"x_tr shape: {np.shape(x_tr)}")
-    print(f"y_tr shape: {np.shape(y_tr)}")
-    print(f"x_te shape: {np.shape(x_te)}")
-    print(f"y_te shape: {np.shape(y_te)}")
-    x_tr, y_tr, x_te, y_te = load_NDAQ()
-    print(f"x_tr shape: {np.shape(x_tr)}")
-    print(f"y_tr shape: {np.shape(y_tr)}")
-    print(f"x_te shape: {np.shape(x_te)}")
-    print(f"y_te shape: {np.shape(y_te)}")
+    train_set, test_set = load_AAPL()
+    label, x = train_set[0]
+
+    print(label.shape)
+    print(x.shape)
+
+    label, x = test_set[0]
+
+    print(label.shape)
+    print(x.shape)
+    
