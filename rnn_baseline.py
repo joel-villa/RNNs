@@ -14,10 +14,8 @@ class RNNBaseline(nn.Module):
 
         self.h2o = nn.Linear(hidden_size, output_size)
 
-
     def forward(self, line_tensor):
         rnn_out, hidden = self.rnn(line_tensor)
-        rnn_out, _ = self.rnn(x)
         # take last val, same as hidden[0] 
         last_val = rnn_out[:, -1, :]
         output = self.h2o(last_val)

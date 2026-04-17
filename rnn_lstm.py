@@ -16,6 +16,7 @@ class RNNLSTM(nn.Module):
 
     def forward(self, line_tensor):
         rnn_out, (hidden, cell) = self.rnn(line_tensor)
-        output = self.h2o(hidden[0])
+        # take last val, same as hidden[0] 
+        last_out = rnn_out[:, -1, :]
+        output = self.h2o(last_out)
         return output
-

@@ -17,6 +17,8 @@ class RNNGRU(nn.Module):
 
     def forward(self, line_tensor):
         rnn_out, hidden = self.rnn(line_tensor)
-        output = self.h2o(hidden[0])
+        # take last val, same as hidden[0] 
+        last_val = rnn_out[:, -1, :]
+        output = self.h2o(last_val)
         return output
 

@@ -8,8 +8,8 @@ from load_data import *
 
 def train_model(model,
                 dataloader, 
-                hidden_size, 
-                output_size, 
+                device,
+                report_every=5,
                 num_epochs=10, 
                 batch_size=32, 
                 learning_rate=0.01):
@@ -18,45 +18,48 @@ def train_model(model,
     current_loss = 0
     all_losses = []
 
-    model.train()
-    optimizer = torch.optim.Adam(rnn.parameters(), lr=learning_rate)
+    model.to(device)
+
+    # define optimizer and criterion (loss fn)
+    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+    criterion = nn.MSELoss()
 
     start = time.perf_counter()
-    print(f"training on data set with n = {len(training_data)}")
 
-    for iter in range(1, n_epoch + 1):
-        rnn.zero_grad() # clear the gradients
+    for epoch in range(1, num_epochs + 1):
+        model.train()
 
-        for y_batch, X_batch in loader:
+        # for each batch in the dataloader
+        for y_batch, X_batch in dataloader:
+
+            X_batch = X_batch.to(device)
+            y_batch = y_batch.to(device)
+
             optimizer.zero_grad()
 
-            batch_loss = 0
+            # process da batch
+            output = model(X_batch)
+            loss = criterion(output, y_batch)
 
-            # If your RNN expects one sequence at a time:
-            for i in range(len(X_batch)):
-                output = rnn(X_batch[i])
-                loss = criterion(output, y_batch[i])
-                batch_loss += loss
-
-            # optimize parameters
-            batch_loss.backward()
-            nn.utils.clip_grad_norm_(rnn.parameters(), 3)
+            loss.backward()
+            nn.utils.clip_grad_norm_(model.parameters(), 3)
             optimizer.step()
-            optimizer.zero_grad()
 
-            current_loss += batch_loss.item() / len(X_batch)
+            current_loss += loss.item() * X_batch.size(0)
+            total_samples += X_batch.size(0)
 
-        all_losses.append(current_loss / len(loader) )
-        if iter % report_every == 0:
-            print(f"{iter} ({iter / n_epoch:.0%}): \t average batch loss = {all_losses[-1]}")
+        # loss book keeping calculation
+        all_losses.append(current_loss / total_samples)
+
+        if epoch % report_every == 0:
+            print(f"{epoch} ({epoch / num_epochs:.0%}): \t average batch loss = {all_losses[-1]}")
+
         current_loss = 0
 
     end = time.perf_counter()
     total_time = end - start
 
     results = {
-        "hidden_size"   : hidden_size,
-        "output_size"   : output_size,
         "learning_rate" : learning_rate,
         "batch_size"    : batch_size,
         "num_epochs"    : num_epochs,
