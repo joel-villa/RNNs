@@ -17,6 +17,7 @@ def train_model(model,
     # loss book keeping
     current_loss = 0
     all_losses = []
+    total_samples = 0
 
     model.to(device)
 
