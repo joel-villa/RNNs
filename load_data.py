@@ -33,14 +33,10 @@ def npz_load(ticker):
     y_test = data['y_test']
 
     # To tensors
-    x_train = torch.from_numpy(x_train).float()
-    y_train = torch.from_numpy(y_train).float().unsqueeze(1) # (d,) -> (d, 1)
-    x_test = torch.from_numpy(x_test).float()
-    y_test = torch.from_numpy(y_test).float().unsqueeze(1)
-
-    # Convert to tensors if not already
-    x_train = torch.tensor(x_train, dtype=torch.float32)
-    y_train = torch.tensor(y_train, dtype=torch.long)  # or float depending on task
+    x_train = torch.from_numpy(x_train).float().unsqueeze(-1)  # this makes it like (N, 50, 1)
+    x_test  = torch.from_numpy(x_test).float().unsqueeze(-1)
+    y_train = torch.from_numpy(y_train).float().unsqueeze(1)
+    y_test  = torch.from_numpy(y_test).float().unsqueeze(1)
 
     train_set = TensorDataset(y_train, x_train)
     test_set = TensorDataset(y_test, x_test)
