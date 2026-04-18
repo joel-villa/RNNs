@@ -91,17 +91,17 @@ def parameter_search(
                         "model_type"    : model_type
                     }
 
-                    path = get_path(
-                        model_type=model_type,
-                        num_hidden_layers=layers,
-                        num_hidden_neurons=neurons,
-                        learning_rate=learning_rate,
-                        num_epochs=num_epochs,
-                        ticker=ticker
-                    )
-                    print(f"The best is located at: {path}")
-                    save_model_onnx(model, path, device=device)
-
+    best_details = best_results["Details"]
+    path = get_path(
+        model_type=best_results["model_type"],
+        num_hidden_layers=best_results["num_layers"],
+        num_hidden_neurons=best_results["num_neurons"],
+        learning_rate=best_details["learning_rate"],
+        num_epochs=best_details["num_epochs"],
+        ticker=ticker
+    )
+    print(f"The best is located at: {path}")
+    save_model_onnx(model, path, device=device)
     return best_results
 
 def old_main():
