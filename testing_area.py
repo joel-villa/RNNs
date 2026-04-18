@@ -143,6 +143,51 @@ def old_main():
             device=device,
             ticker="AAPL")
 
+def big_sweep():   
+
+    tickers = ["AAPL", "MSFT", "TSLA", "NDAQ"]
+    model_types = ["rnn_baseline", "rnn_gru", "rnn_lstm"]
+
+    num_hidden_layers = [1, 2, 3, 4, 5]
+    num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
+    learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+
+    for ticker in tickers:
+        print()
+        print(f"MODEL USING STOCK: {ticker}")
+        print()
+
+        train_set, test_set = load_npz(ticker)
+
+        train_dataloader = DataLoader(
+            train_set,
+            batch_size=BATCH_SIZE,
+            shuffle=True
+        )
+
+        test_dataloader = DataLoader(
+            test_set,
+            batch_size=BATCH_SIZE,
+            shuffle=False
+        )
+
+        
+        for model_type in model_types:
+            print()
+            print(f"MODEL TYPE IS: {model_type}")
+            print()
+            best_result = parameter_search(
+                train_dataloader=train_dataloader,
+                test_set=test_set,
+                num_hidden_layers=num_hidden_layers,
+                num_hidden_neurons=num_hidden_neurons,
+                learning_rates=learning_rates,
+                model_type=model_type,
+                num_epochs=100,
+                ticker=ticker)
+
+            print(best_result)
+
 if __name__ == "__main__":
    
     train_set, test_set = load_AAPL()
@@ -162,13 +207,9 @@ if __name__ == "__main__":
     ticker = "AAPL"
     model_type = "rnn_baseline"
 
-    # num_hidden_layers = [1, 2, 3, 4, 5]
-    # num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
-    # learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
-
-    num_hidden_layers = [1]
-    num_hidden_neurons = [2]
-    learning_rates = [1e-5]
+    num_hidden_layers = [1, 2, 3, 4, 5]
+    num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
+    learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
 
     best_result = parameter_search(
         train_dataloader=train_dataloader,
