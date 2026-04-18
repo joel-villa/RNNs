@@ -20,3 +20,11 @@ class RNNBaseline(nn.Module):
         last_val = rnn_out[:, -1, :]
         output = self.h2o(last_val)
         return output
+    
+    def predict(self, X):
+        self.eval()  # set to evaluation mode
+
+        with torch.no_grad():  # disable gradients
+            output = self.forward(X)
+
+        return output
