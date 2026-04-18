@@ -65,7 +65,7 @@ def train_model(model,
         "batch_size"    : batch_size,
         "num_epochs"    : num_epochs,
         "Training Time" : total_time,
-        "All Losses"    : all_losses
+        # "All Losses"    : all_losses
     }
 
     return results

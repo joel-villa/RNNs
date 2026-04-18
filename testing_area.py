@@ -18,7 +18,7 @@ print(f"We are using: {device}")
 
 def parameter_search(
         train_dataloader,
-        test_dataloader,
+        test_set,
         num_hidden_layers,
         num_hidden_neurons,
         learning_rates,
@@ -45,15 +45,15 @@ def parameter_search(
             print(f"Yo make sure this model exists: {model_type}")
             return None
 
-    for layer in num_hidden_layers:
-        for neuron in num_hidden_neurons:
+    for layers in num_hidden_layers:
+        for neurons in num_hidden_neurons:
             for learning_rate in learning_rates:
                 # create a model
                 model = model_thing(
                                 input_size=1,
                                 output_size=1,
-                                num_layers=num_hidden_layers,
-                                hidden_size=num_hidden_neurons)
+                                num_layers=layers,
+                                hidden_size=neurons)
 
                 details = train_model(
                     model=model, 
@@ -66,7 +66,7 @@ def parameter_search(
 
                 mae, mape = test_model(
                     model=model,
-                    test_set=test_dataloader, 
+                    test_set=test_set, 
                     device=device,
                     ticker=ticker
                 )
@@ -125,9 +125,6 @@ if __name__ == "__main__":
    
     train_set, test_set = load_AAPL()
 
-    label, x = train_set[0]
-    print(x.shape)
-
     train_dataloader = DataLoader(
         train_set,
         batch_size=BATCH_SIZE,
@@ -149,7 +146,7 @@ if __name__ == "__main__":
 
     best_result = parameter_search(
         train_dataloader=train_dataloader,
-        test_dataloader=test_dataloader,
+        test_set=test_set,
         num_hidden_layers=num_hidden_layers,
         num_hidden_neurons=num_hidden_neurons,
         learning_rates=learning_rates,
