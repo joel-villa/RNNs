@@ -93,7 +93,7 @@ def plot_training_losses(loss_dict, type):
     plt.legend()
     plt.grid(True)
 
-    plt.savefig(f"plots/{type}.jpg")
+    plt.savefig(f"plots/{type.replace(" ", "_")}.jpg")
     plt.show()
 
 if __name__ == "__main__":
@@ -142,7 +142,7 @@ if __name__ == "__main__":
                                   train_dataloader, 
                                   device, 
                                   report_every=1, 
-                                  num_epochs=20, #TODO large test with best hyperparams
+                                  num_epochs=25, #TODO large test with best hyperparams
                                   learning_rate=0.001)
             
             losses[ticker] = results["All Losses"]
