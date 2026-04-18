@@ -4,19 +4,12 @@ For evaluating a model
 
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-import yfinance as yf
+from preprocessing import get_scaler_and_prices
 
 
 def test_model(model, test_set, device, ticker):
-    #TODO: bad coding practice to have steps 1 and 2 here, maybe make a function
-    # in preprocessing to call
-    # Step 1: Fetch historical stock price data using Yahoo Finance
-    data = yf.download(ticker, start="2023-8-01", end="2025-04-01")
-    closing_prices = data['Close'].values.reshape(-1, 1)
 
-    # Step 3: Normalize the closing prices to scale between 0 and 1
-    scaler = MinMaxScaler()
-    scaled_prices = scaler.fit_transform(closing_prices)
+    scaler, _ = get_scaler_and_prices(ticker)
 
     
     # Loading data
