@@ -7,6 +7,7 @@ from rnn_baseline import RNNBaseline
 from rnn_gru import RNNGRU
 from rnn_lstm import RNNLSTM
 from load_data import *
+from model_eval import model_performance
 
 BATCH_SIZE = 32
 
@@ -47,3 +48,10 @@ if __name__ == "__main__":
     )
 
     print(results)
+
+    y_test, X_test = test_set.tensors
+
+    print(X_test.shape)
+    print(y_test.shape)
+
+    model_performance(rnn_baseline, y_test, X_test)
