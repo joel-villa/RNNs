@@ -81,7 +81,7 @@ def train_model(model,
 
 
 def plot_training_losses(loss_dict, type):
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(16, 8))
 
     for ticker, losses in loss_dict.items():
         plt.plot(range(1, len(losses) + 1), losses, label=ticker)
