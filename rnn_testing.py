@@ -35,3 +35,4 @@ def test_model(model, test_set, device, ticker):
     mape = np.mean(np.abs((y_test - predictions) / y_test)) * 100
     print(f"Mean Absolute Error (MAE): {mae:.2f}")
     print(f"Mean Absolute Percentage Error (MAPE): {mape:.2f}%")
+    return mae, mape
