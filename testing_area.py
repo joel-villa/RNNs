@@ -8,6 +8,7 @@ from rnn_gru import RNNGRU
 from rnn_lstm import RNNLSTM
 from load_data import *
 from rnn_testing import test_model
+from onnx_util import *
 
 BATCH_SIZE = 32
 REPORT_EVERY = 5000
@@ -90,6 +91,17 @@ def parameter_search(
                         "model_type"    : model_type
                     }
 
+                    path = get_path(
+                        model_type=model_type,
+                        num_hidden_layers=layers,
+                        num_hidden_neurons=neurons,
+                        learning_rate=learning_rate,
+                        num_epochs=num_epochs,
+                        ticker=ticker
+                    )
+                    print(f"The best is located at: {path}")
+                    save_model_onnx(model, path, device=device)
+
     return best_results
 
 def old_main():
@@ -150,9 +162,13 @@ if __name__ == "__main__":
     ticker = "AAPL"
     model_type = "rnn_baseline"
 
-    num_hidden_layers = [1, 2, 3, 4, 5]
-    num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
-    learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+    # num_hidden_layers = [1, 2, 3, 4, 5]
+    # num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
+    # learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+
+    num_hidden_layers = [1]
+    num_hidden_neurons = [2]
+    learning_rates = [1e-5]
 
     best_result = parameter_search(
         train_dataloader=train_dataloader,
