@@ -29,6 +29,8 @@ def parameter_search(
     best_results = {
         "MAE"           : 100.0,
         "MAPE"          : 100.0,
+        "num_layers"    : 0.0,
+        "num_neurons"   : 0.0,
         "Details"       : None,
         "Ticker"        : ticker,
         "model_type"    : model_type
@@ -64,17 +66,25 @@ def parameter_search(
                     learning_rate=learning_rate
                 )
 
+                print()
+                print(f"Results for num_layers: {layers}, num_neurons: {neurons}, learning_rate: {learning_rate}")
+
                 mae, mape = test_model(
                     model=model,
                     test_set=test_set, 
                     device=device,
                     ticker=ticker
                 )
+                print()
+
+        
 
                 if best_results["MAPE"] > mape:
                     best_results = {
                         "MAE"           : mae,
                         "MAPE"          : mape,
+                        "num_layers"    : layers,
+                        "num_neurons"   : neurons,
                         "Details"       : details,
                         "Ticker"        : ticker,
                         "model_type"    : model_type
@@ -140,9 +150,9 @@ if __name__ == "__main__":
     ticker = "AAPL"
     model_type = "rnn_baseline"
 
-    num_hidden_layers = [1]
-    num_hidden_neurons = [1]
-    learning_rates = [1e-1]
+    num_hidden_layers = [1, 2, 3, 4, 5]
+    num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
+    learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
 
     best_result = parameter_search(
         train_dataloader=train_dataloader,
@@ -151,7 +161,7 @@ if __name__ == "__main__":
         num_hidden_neurons=num_hidden_neurons,
         learning_rates=learning_rates,
         model_type=model_type,
-        num_epochs=20,
+        num_epochs=100,
         ticker=ticker)
 
     print(best_result)

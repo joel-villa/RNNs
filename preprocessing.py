@@ -4,6 +4,10 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
+import warnings
+
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 def get_scaler_and_prices(ticker):
     #TODO: bad coding practice to have steps 1 and 2 here, maybe make a function
     # in preprocessing to call
