@@ -176,6 +176,10 @@ def big_sweep():
             print()
             print(f"MODEL TYPE IS: {model_type}")
             print()
+
+            if model_type == "rnn_lstm":
+                num_hidden_layers = [1]
+                
             best_result = parameter_search(
                 train_dataloader=train_dataloader,
                 test_set=test_set,
