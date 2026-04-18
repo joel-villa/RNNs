@@ -22,7 +22,7 @@ def parameter_search(
         num_hidden_layers,
         num_hidden_neurons,
         learning_rates,
-        model_type="rnn_normal", # could either be rnn_normal, rnn_gru, rnn_lstm
+        model_type="rnn_baseline", # could either be rnn_normal, rnn_gru, rnn_lstm
         num_epochs=50,
         ticker="AAPL"):
 
@@ -35,7 +35,7 @@ def parameter_search(
     }
 
     match model_type:
-        case "rnn_normal":
+        case "rnn_baseline":
             model_thing = RNNBaseline
         case "rnn_gru":
             model_thing = RNNGRU
