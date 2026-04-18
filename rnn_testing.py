@@ -8,6 +8,8 @@ import yfinance as yf
 
 
 def test_model(model, test_set, device, ticker):
+    #TODO: bad coding practice to have steps 1 and 2 here, maybe make a function
+    # in preprocessing to call
     # Step 1: Fetch historical stock price data using Yahoo Finance
     data = yf.download(ticker, start="2023-8-01", end="2025-04-01")
     closing_prices = data['Close'].values.reshape(-1, 1)
