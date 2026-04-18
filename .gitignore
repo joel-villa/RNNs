@@ -2,4 +2,4 @@
 __pycache__
 
 # Don't think you want' my notebook, but I could be persuaded
-.ipynb
+*.ipynb
