@@ -4,10 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
-def save(ticker):
-    """
-    Fetch the data for the given ticker (about 300 samples should be sufficient)
-    """
+def get_scaler_and_prices(ticker):
+    #TODO: bad coding practice to have steps 1 and 2 here, maybe make a function
+    # in preprocessing to call
     # Step 1: Fetch historical stock price data using Yahoo Finance
     data = yf.download(ticker, start="2023-8-01", end="2025-04-01")
     closing_prices = data['Close'].values.reshape(-1, 1)
@@ -15,6 +14,14 @@ def save(ticker):
     # Step 3: Normalize the closing prices to scale between 0 and 1
     scaler = MinMaxScaler()
     scaled_prices = scaler.fit_transform(closing_prices)
+
+    return scaler, scaled_prices
+
+def save(ticker):
+    """
+    Fetch the data for the given ticker (about 300 samples should be sufficient)
+    """
+    _, scaled_prices = get_scaler_and_prices(ticker)
 
     # Step 4: Prepare feature sequences using a sliding window approach
     # Each input consists of 50 consecutive days of stock prices
