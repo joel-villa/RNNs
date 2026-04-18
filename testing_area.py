@@ -157,7 +157,7 @@ def big_sweep():
         print(f"MODEL USING STOCK: {ticker}")
         print()
 
-        train_set, test_set = load_npz(ticker)
+        train_set, test_set = npz_load(ticker)
 
         train_dataloader = DataLoader(
             train_set,
@@ -179,7 +179,7 @@ def big_sweep():
 
             if model_type == "rnn_lstm":
                 num_hidden_layers = [1]
-                
+
             best_result = parameter_search(
                 train_dataloader=train_dataloader,
                 test_set=test_set,
