@@ -1,0 +1,3806 @@
+We are using: cuda
+
+MODEL USING STOCK: AAPL
+
+
+MODEL TYPE IS: rnn_baseline
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 29.85
+Mean Absolute Percentage Error (MAPE): 13.57%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.33
+Mean Absolute Percentage Error (MAPE): 1.59%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.58
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.94
+Mean Absolute Percentage Error (MAPE): 1.41%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.35
+Mean Absolute Percentage Error (MAPE): 10.33%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 16.03
+Mean Absolute Percentage Error (MAPE): 7.83%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.27
+Mean Absolute Percentage Error (MAPE): 1.57%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.46
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.15
+Mean Absolute Percentage Error (MAPE): 1.49%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 42.95
+Mean Absolute Percentage Error (MAPE): 19.63%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.50
+Mean Absolute Percentage Error (MAPE): 5.11%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.52
+Mean Absolute Percentage Error (MAPE): 1.67%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.53
+Mean Absolute Percentage Error (MAPE): 1.20%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.93
+Mean Absolute Percentage Error (MAPE): 4.36%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 102.42
+Mean Absolute Percentage Error (MAPE): 48.59%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.66
+Mean Absolute Percentage Error (MAPE): 2.24%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.22
+Mean Absolute Percentage Error (MAPE): 1.54%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.47
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.94
+Mean Absolute Percentage Error (MAPE): 10.25%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 113.28
+Mean Absolute Percentage Error (MAPE): 56.43%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.20
+Mean Absolute Percentage Error (MAPE): 2.02%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.88
+Mean Absolute Percentage Error (MAPE): 1.38%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.31
+Mean Absolute Percentage Error (MAPE): 1.10%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 33.08
+Mean Absolute Percentage Error (MAPE): 14.93%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 915.18
+Mean Absolute Percentage Error (MAPE): 446.85%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.83
+Mean Absolute Percentage Error (MAPE): 1.84%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.80
+Mean Absolute Percentage Error (MAPE): 1.34%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.18
+Mean Absolute Percentage Error (MAPE): 6.42%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 166.76
+Mean Absolute Percentage Error (MAPE): 79.91%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 743.62
+Mean Absolute Percentage Error (MAPE): 360.76%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.39
+Mean Absolute Percentage Error (MAPE): 9.78%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.45
+Mean Absolute Percentage Error (MAPE): 1.65%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.44
+Mean Absolute Percentage Error (MAPE): 1.17%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.52
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.21
+Mean Absolute Percentage Error (MAPE): 9.31%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 14.14
+Mean Absolute Percentage Error (MAPE): 6.88%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.63
+Mean Absolute Percentage Error (MAPE): 1.72%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.24
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.69
+Mean Absolute Percentage Error (MAPE): 3.70%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 84.00
+Mean Absolute Percentage Error (MAPE): 42.18%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.02
+Mean Absolute Percentage Error (MAPE): 1.93%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.74
+Mean Absolute Percentage Error (MAPE): 1.31%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.59
+Mean Absolute Percentage Error (MAPE): 1.27%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.97
+Mean Absolute Percentage Error (MAPE): 10.25%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 97.57
+Mean Absolute Percentage Error (MAPE): 46.22%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.91
+Mean Absolute Percentage Error (MAPE): 1.88%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.65
+Mean Absolute Percentage Error (MAPE): 1.27%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.37
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 47.62
+Mean Absolute Percentage Error (MAPE): 24.46%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 143.14
+Mean Absolute Percentage Error (MAPE): 68.41%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.28
+Mean Absolute Percentage Error (MAPE): 1.57%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.31
+Mean Absolute Percentage Error (MAPE): 1.10%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.16
+Mean Absolute Percentage Error (MAPE): 1.04%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 101.25
+Mean Absolute Percentage Error (MAPE): 50.58%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 214.46
+Mean Absolute Percentage Error (MAPE): 105.69%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.94
+Mean Absolute Percentage Error (MAPE): 1.43%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.30
+Mean Absolute Percentage Error (MAPE): 1.10%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 30.06
+Mean Absolute Percentage Error (MAPE): 15.77%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 79.91
+Mean Absolute Percentage Error (MAPE): 40.18%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1688.30
+Mean Absolute Percentage Error (MAPE): 823.25%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 19.65
+Mean Absolute Percentage Error (MAPE): 9.54%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.00
+Mean Absolute Percentage Error (MAPE): 1.44%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.46
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.62
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.92
+Mean Absolute Percentage Error (MAPE): 10.26%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.29
+Mean Absolute Percentage Error (MAPE): 2.07%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.81
+Mean Absolute Percentage Error (MAPE): 1.34%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.30
+Mean Absolute Percentage Error (MAPE): 1.10%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.86
+Mean Absolute Percentage Error (MAPE): 10.58%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 135.97
+Mean Absolute Percentage Error (MAPE): 67.48%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.87
+Mean Absolute Percentage Error (MAPE): 1.87%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.57
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.43
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.06
+Mean Absolute Percentage Error (MAPE): 10.24%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 53.14
+Mean Absolute Percentage Error (MAPE): 27.15%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.67
+Mean Absolute Percentage Error (MAPE): 1.76%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.35
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.70
+Mean Absolute Percentage Error (MAPE): 1.32%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.86
+Mean Absolute Percentage Error (MAPE): 10.56%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 575.11
+Mean Absolute Percentage Error (MAPE): 281.28%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.11
+Mean Absolute Percentage Error (MAPE): 1.49%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.56
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.40
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 71.65
+Mean Absolute Percentage Error (MAPE): 33.61%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 490.33
+Mean Absolute Percentage Error (MAPE): 224.99%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.69
+Mean Absolute Percentage Error (MAPE): 1.30%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.18
+Mean Absolute Percentage Error (MAPE): 1.04%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.84
+Mean Absolute Percentage Error (MAPE): 10.52%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 24.89
+Mean Absolute Percentage Error (MAPE): 11.19%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1544.81
+Mean Absolute Percentage Error (MAPE): 750.83%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.00
+Mean Absolute Percentage Error (MAPE): 2.39%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.26
+Mean Absolute Percentage Error (MAPE): 1.56%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.57
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.93
+Mean Absolute Percentage Error (MAPE): 1.39%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.03
+Mean Absolute Percentage Error (MAPE): 10.78%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.87
+Mean Absolute Percentage Error (MAPE): 2.79%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.05
+Mean Absolute Percentage Error (MAPE): 1.47%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.29
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.06
+Mean Absolute Percentage Error (MAPE): 10.24%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 78.46
+Mean Absolute Percentage Error (MAPE): 36.92%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.27
+Mean Absolute Percentage Error (MAPE): 2.05%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.57
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.33
+Mean Absolute Percentage Error (MAPE): 1.11%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.18
+Mean Absolute Percentage Error (MAPE): 10.36%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 70.83
+Mean Absolute Percentage Error (MAPE): 35.76%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.55
+Mean Absolute Percentage Error (MAPE): 1.71%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.53
+Mean Absolute Percentage Error (MAPE): 1.22%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.78
+Mean Absolute Percentage Error (MAPE): 1.31%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.82
+Mean Absolute Percentage Error (MAPE): 11.39%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 72.50
+Mean Absolute Percentage Error (MAPE): 36.57%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.89
+Mean Absolute Percentage Error (MAPE): 1.39%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.91
+Mean Absolute Percentage Error (MAPE): 1.40%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.29
+Mean Absolute Percentage Error (MAPE): 5.85%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 65.61
+Mean Absolute Percentage Error (MAPE): 33.22%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 413.80
+Mean Absolute Percentage Error (MAPE): 202.74%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.63
+Mean Absolute Percentage Error (MAPE): 1.26%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.26
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.46
+Mean Absolute Percentage Error (MAPE): 10.26%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 63.56
+Mean Absolute Percentage Error (MAPE): 29.67%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 621.75
+Mean Absolute Percentage Error (MAPE): 303.99%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.34
+Mean Absolute Percentage Error (MAPE): 2.55%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.18
+Mean Absolute Percentage Error (MAPE): 1.53%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.29
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.25%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 44.27
+Mean Absolute Percentage Error (MAPE): 22.81%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.59
+Mean Absolute Percentage Error (MAPE): 2.21%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.90
+Mean Absolute Percentage Error (MAPE): 1.39%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.30
+Mean Absolute Percentage Error (MAPE): 1.10%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.22
+Mean Absolute Percentage Error (MAPE): 10.95%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 42.51
+Mean Absolute Percentage Error (MAPE): 21.95%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.55
+Mean Absolute Percentage Error (MAPE): 2.19%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.58
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.57
+Mean Absolute Percentage Error (MAPE): 1.20%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.91
+Mean Absolute Percentage Error (MAPE): 10.39%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 34.88
+Mean Absolute Percentage Error (MAPE): 18.18%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.93
+Mean Absolute Percentage Error (MAPE): 1.89%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.25
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.68
+Mean Absolute Percentage Error (MAPE): 1.27%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.72
+Mean Absolute Percentage Error (MAPE): 10.29%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 580.12
+Mean Absolute Percentage Error (MAPE): 281.16%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.07
+Mean Absolute Percentage Error (MAPE): 1.49%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.55
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.75
+Mean Absolute Percentage Error (MAPE): 10.28%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.34
+Mean Absolute Percentage Error (MAPE): 11.05%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 169.23
+Mean Absolute Percentage Error (MAPE): 81.11%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.95
+Mean Absolute Percentage Error (MAPE): 1.42%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.62
+Mean Absolute Percentage Error (MAPE): 1.25%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 26.58
+Mean Absolute Percentage Error (MAPE): 11.94%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 219.41
+Mean Absolute Percentage Error (MAPE): 105.54%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 76.49
+Mean Absolute Percentage Error (MAPE): 35.96%
+
+The best is located at: models/rnn_baseline_hl2_hn512_lr0.001_e100_tAAPL.onnx
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3], self.rnn._flat_weights[4], self.rnn._flat_weights[5], self.rnn._flat_weights[6], self.rnn._flat_weights[7], self.rnn._flat_weights[8], self.rnn._flat_weights[9], self.rnn._flat_weights[10], self.rnn._flat_weights[11], self.rnn._flat_weights[12], self.rnn._flat_weights[13], self.rnn._flat_weights[14], self.rnn._flat_weights[15], self.rnn._flat_weights[16], self.rnn._flat_weights[17], self.rnn._flat_weights[18], self.rnn._flat_weights[19] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(2.16381), 'MAPE': np.float32(1.0401566), 'num_layers': 2, 'num_neurons': 512, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 2.6677608390000387}, 'Ticker': 'AAPL', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.79
+Mean Absolute Percentage Error (MAPE): 10.34%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.52
+Mean Absolute Percentage Error (MAPE): 1.69%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.49
+Mean Absolute Percentage Error (MAPE): 1.19%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.14
+Mean Absolute Percentage Error (MAPE): 1.03%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.67
+Mean Absolute Percentage Error (MAPE): 1.28%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 25.49
+Mean Absolute Percentage Error (MAPE): 11.49%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.07
+Mean Absolute Percentage Error (MAPE): 1.96%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.66
+Mean Absolute Percentage Error (MAPE): 1.28%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.63
+Mean Absolute Percentage Error (MAPE): 1.77%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.42
+Mean Absolute Percentage Error (MAPE): 3.56%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.00
+Mean Absolute Percentage Error (MAPE): 7.36%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.07
+Mean Absolute Percentage Error (MAPE): 1.48%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.47
+Mean Absolute Percentage Error (MAPE): 1.19%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.33
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 33.80
+Mean Absolute Percentage Error (MAPE): 16.41%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.53
+Mean Absolute Percentage Error (MAPE): 3.74%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.12
+Mean Absolute Percentage Error (MAPE): 1.50%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.28
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.19
+Mean Absolute Percentage Error (MAPE): 1.05%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 105.72
+Mean Absolute Percentage Error (MAPE): 51.49%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.64
+Mean Absolute Percentage Error (MAPE): 2.71%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.84
+Mean Absolute Percentage Error (MAPE): 1.37%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.24
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.21
+Mean Absolute Percentage Error (MAPE): 1.06%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 62.32
+Mean Absolute Percentage Error (MAPE): 30.01%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.96
+Mean Absolute Percentage Error (MAPE): 2.38%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.89
+Mean Absolute Percentage Error (MAPE): 1.39%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.31
+Mean Absolute Percentage Error (MAPE): 1.11%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 135.43
+Mean Absolute Percentage Error (MAPE): 65.76%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 163.90
+Mean Absolute Percentage Error (MAPE): 79.06%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.62
+Mean Absolute Percentage Error (MAPE): 10.18%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.33
+Mean Absolute Percentage Error (MAPE): 1.61%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.73
+Mean Absolute Percentage Error (MAPE): 1.30%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.27
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 2, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.36
+Mean Absolute Percentage Error (MAPE): 2.12%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.47
+Mean Absolute Percentage Error (MAPE): 8.52%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.15
+Mean Absolute Percentage Error (MAPE): 1.52%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.26
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.37
+Mean Absolute Percentage Error (MAPE): 1.14%
+
+
+Results for num_layers: 2, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.39
+Mean Absolute Percentage Error (MAPE): 8.43%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.33
+Mean Absolute Percentage Error (MAPE): 4.10%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.82
+Mean Absolute Percentage Error (MAPE): 1.35%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.15
+Mean Absolute Percentage Error (MAPE): 1.03%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.50
+Mean Absolute Percentage Error (MAPE): 1.21%
+
+
+Results for num_layers: 2, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 48.11
+Mean Absolute Percentage Error (MAPE): 22.15%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.31
+Mean Absolute Percentage Error (MAPE): 2.07%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.50
+Mean Absolute Percentage Error (MAPE): 1.21%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.25
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.53
+Mean Absolute Percentage Error (MAPE): 1.20%
+
+
+Results for num_layers: 2, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 103.17
+Mean Absolute Percentage Error (MAPE): 51.51%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.17
+Mean Absolute Percentage Error (MAPE): 2.00%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.10
+Mean Absolute Percentage Error (MAPE): 1.47%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.48
+Mean Absolute Percentage Error (MAPE): 1.19%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 29.93
+Mean Absolute Percentage Error (MAPE): 15.06%
+
+
+Results for num_layers: 2, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1191.11
+Mean Absolute Percentage Error (MAPE): 578.63%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.55
+Mean Absolute Percentage Error (MAPE): 1.71%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.28
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.27
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 27.48
+Mean Absolute Percentage Error (MAPE): 13.11%
+
+
+Results for num_layers: 2, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 66.12
+Mean Absolute Percentage Error (MAPE): 30.91%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 18.20
+Mean Absolute Percentage Error (MAPE): 8.57%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.58
+Mean Absolute Percentage Error (MAPE): 1.73%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.26
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.42
+Mean Absolute Percentage Error (MAPE): 1.16%
+
+
+Results for num_layers: 3, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.17
+Mean Absolute Percentage Error (MAPE): 10.36%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 14.31
+Mean Absolute Percentage Error (MAPE): 7.04%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.21
+Mean Absolute Percentage Error (MAPE): 1.54%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.42
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.08
+Mean Absolute Percentage Error (MAPE): 1.48%
+
+
+Results for num_layers: 3, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 34.97
+Mean Absolute Percentage Error (MAPE): 18.22%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.33
+Mean Absolute Percentage Error (MAPE): 2.58%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.67
+Mean Absolute Percentage Error (MAPE): 1.29%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.31
+Mean Absolute Percentage Error (MAPE): 1.11%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.44
+Mean Absolute Percentage Error (MAPE): 1.17%
+
+
+Results for num_layers: 3, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 23.58
+Mean Absolute Percentage Error (MAPE): 10.65%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.51
+Mean Absolute Percentage Error (MAPE): 2.17%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.72
+Mean Absolute Percentage Error (MAPE): 1.30%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.38
+Mean Absolute Percentage Error (MAPE): 4.45%
+
+
+Results for num_layers: 3, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 83.31
+Mean Absolute Percentage Error (MAPE): 39.28%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.03
+Mean Absolute Percentage Error (MAPE): 1.94%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.24
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.20
+Mean Absolute Percentage Error (MAPE): 1.05%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 90.98
+Mean Absolute Percentage Error (MAPE): 43.91%
+
+
+Results for num_layers: 3, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 387.80
+Mean Absolute Percentage Error (MAPE): 187.53%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.61
+Mean Absolute Percentage Error (MAPE): 1.74%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.22
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 74.42
+Mean Absolute Percentage Error (MAPE): 37.51%
+
+
+Results for num_layers: 3, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1386.89
+Mean Absolute Percentage Error (MAPE): 676.51%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 19.92
+Mean Absolute Percentage Error (MAPE): 9.15%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.66
+Mean Absolute Percentage Error (MAPE): 1.76%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.34
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.34
+Mean Absolute Percentage Error (MAPE): 1.11%
+
+
+Results for num_layers: 4, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.84
+Mean Absolute Percentage Error (MAPE): 10.45%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 16.81
+Mean Absolute Percentage Error (MAPE): 8.24%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.32
+Mean Absolute Percentage Error (MAPE): 1.60%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.40
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.51
+Mean Absolute Percentage Error (MAPE): 1.20%
+
+
+Results for num_layers: 4, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 28.36
+Mean Absolute Percentage Error (MAPE): 12.76%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.27
+Mean Absolute Percentage Error (MAPE): 2.53%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.93
+Mean Absolute Percentage Error (MAPE): 1.40%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.78
+Mean Absolute Percentage Error (MAPE): 2.65%
+
+
+Results for num_layers: 4, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 50.77
+Mean Absolute Percentage Error (MAPE): 26.00%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.84
+Mean Absolute Percentage Error (MAPE): 2.33%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.32
+Mean Absolute Percentage Error (MAPE): 1.61%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.93
+Mean Absolute Percentage Error (MAPE): 1.83%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 16.80
+Mean Absolute Percentage Error (MAPE): 8.58%
+
+
+Results for num_layers: 4, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 102.68
+Mean Absolute Percentage Error (MAPE): 48.71%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.30
+Mean Absolute Percentage Error (MAPE): 2.07%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.27
+Mean Absolute Percentage Error (MAPE): 1.09%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.33
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 60.24
+Mean Absolute Percentage Error (MAPE): 29.77%
+
+
+Results for num_layers: 4, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 305.03
+Mean Absolute Percentage Error (MAPE): 149.79%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.01
+Mean Absolute Percentage Error (MAPE): 1.91%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.49
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.45
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 45.15
+Mean Absolute Percentage Error (MAPE): 23.24%
+
+
+Results for num_layers: 4, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 913.98
+Mean Absolute Percentage Error (MAPE): 446.26%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 19.14
+Mean Absolute Percentage Error (MAPE): 9.27%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.79
+Mean Absolute Percentage Error (MAPE): 1.83%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.26
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.58
+Mean Absolute Percentage Error (MAPE): 1.21%
+
+
+Results for num_layers: 5, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.71
+Mean Absolute Percentage Error (MAPE): 11.31%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 16.95
+Mean Absolute Percentage Error (MAPE): 8.26%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.70
+Mean Absolute Percentage Error (MAPE): 1.81%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.39
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.26%
+
+
+Results for num_layers: 5, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.98
+Mean Absolute Percentage Error (MAPE): 10.25%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.48
+Mean Absolute Percentage Error (MAPE): 2.65%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.92
+Mean Absolute Percentage Error (MAPE): 1.40%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.44
+Mean Absolute Percentage Error (MAPE): 1.62%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.07
+Mean Absolute Percentage Error (MAPE): 5.70%
+
+
+Results for num_layers: 5, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 31.27
+Mean Absolute Percentage Error (MAPE): 16.37%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.41
+Mean Absolute Percentage Error (MAPE): 2.60%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.62
+Mean Absolute Percentage Error (MAPE): 1.26%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.40
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 14.38
+Mean Absolute Percentage Error (MAPE): 6.71%
+
+
+Results for num_layers: 5, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 279.34
+Mean Absolute Percentage Error (MAPE): 137.28%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.67
+Mean Absolute Percentage Error (MAPE): 2.25%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.33
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.73
+Mean Absolute Percentage Error (MAPE): 1.31%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 27.94
+Mean Absolute Percentage Error (MAPE): 13.21%
+
+
+Results for num_layers: 5, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 40.73
+Mean Absolute Percentage Error (MAPE): 21.07%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.84
+Mean Absolute Percentage Error (MAPE): 1.84%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.23
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.84
+Mean Absolute Percentage Error (MAPE): 1.85%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 103.58
+Mean Absolute Percentage Error (MAPE): 51.71%
+
+
+Results for num_layers: 5, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1753.14
+Mean Absolute Percentage Error (MAPE): 854.82%
+
+The best is located at: models/rnn_gru_hl1_hn32_lr0.01_e100_tAAPL.onnx
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3], self.rnn._flat_weights[4], self.rnn._flat_weights[5], self.rnn._flat_weights[6], self.rnn._flat_weights[7], self.rnn._flat_weights[8], self.rnn._flat_weights[9], self.rnn._flat_weights[10], self.rnn._flat_weights[11], self.rnn._flat_weights[12], self.rnn._flat_weights[13], self.rnn._flat_weights[14], self.rnn._flat_weights[15], self.rnn._flat_weights[16], self.rnn._flat_weights[17], self.rnn._flat_weights[18], self.rnn._flat_weights[19] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(2.1390123), 'MAPE': np.float32(1.0259222), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8925177959990833}, 'Ticker': 'AAPL', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 33.17
+Mean Absolute Percentage Error (MAPE): 14.98%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.84
+Mean Absolute Percentage Error (MAPE): 2.82%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.97
+Mean Absolute Percentage Error (MAPE): 1.42%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.25
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.24
+Mean Absolute Percentage Error (MAPE): 1.07%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 21.16
+Mean Absolute Percentage Error (MAPE): 9.57%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.24
+Mean Absolute Percentage Error (MAPE): 2.54%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.70
+Mean Absolute Percentage Error (MAPE): 1.76%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.63
+Mean Absolute Percentage Error (MAPE): 1.27%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.35
+Mean Absolute Percentage Error (MAPE): 1.62%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.88
+Mean Absolute Percentage Error (MAPE): 6.49%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.82
+Mean Absolute Percentage Error (MAPE): 2.34%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.13
+Mean Absolute Percentage Error (MAPE): 1.49%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.51
+Mean Absolute Percentage Error (MAPE): 1.18%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.70
+Mean Absolute Percentage Error (MAPE): 2.83%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.89
+Mean Absolute Percentage Error (MAPE): 4.79%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.04
+Mean Absolute Percentage Error (MAPE): 1.95%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.61
+Mean Absolute Percentage Error (MAPE): 1.25%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.13
+Mean Absolute Percentage Error (MAPE): 1.53%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 52.38
+Mean Absolute Percentage Error (MAPE): 24.22%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.22
+Mean Absolute Percentage Error (MAPE): 3.90%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.05
+Mean Absolute Percentage Error (MAPE): 1.95%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.59
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 19.28
+Mean Absolute Percentage Error (MAPE): 9.33%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 533.58
+Mean Absolute Percentage Error (MAPE): 258.50%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.43
+Mean Absolute Percentage Error (MAPE): 3.53%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.78
+Mean Absolute Percentage Error (MAPE): 1.81%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.81
+Mean Absolute Percentage Error (MAPE): 1.34%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.14
+Mean Absolute Percentage Error (MAPE): 10.22%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 133.14
+Mean Absolute Percentage Error (MAPE): 63.54%
+
+The best is located at: models/rnn_lstm_hl1_hn32_lr0.1_e100_tAAPL.onnx
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 3 of general pattern rewrite rules.
+{'MAE': np.float32(2.2435088), 'MAPE': np.float32(1.0741012), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.1, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.0005655549994117}, 'Ticker': 'AAPL', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: MSFT
+
+
+MODEL TYPE IS: rnn_baseline
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 88.36
+Mean Absolute Percentage Error (MAPE): 21.35%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.34
+Mean Absolute Percentage Error (MAPE): 2.11%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.21
+Mean Absolute Percentage Error (MAPE): 1.04%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.84
+Mean Absolute Percentage Error (MAPE): 0.95%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 22.58
+Mean Absolute Percentage Error (MAPE): 6.01%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.44
+Mean Absolute Percentage Error (MAPE): 5.24%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.25
+Mean Absolute Percentage Error (MAPE): 1.54%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.15
+Mean Absolute Percentage Error (MAPE): 1.02%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.88
+Mean Absolute Percentage Error (MAPE): 2.46%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 245.08
+Mean Absolute Percentage Error (MAPE): 61.48%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.83
+Mean Absolute Percentage Error (MAPE): 4.58%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.10
+Mean Absolute Percentage Error (MAPE): 1.49%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.19
+Mean Absolute Percentage Error (MAPE): 1.03%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.75
+Mean Absolute Percentage Error (MAPE): 1.17%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 103.75
+Mean Absolute Percentage Error (MAPE): 25.19%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.01
+Mean Absolute Percentage Error (MAPE): 1.98%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.95
+Mean Absolute Percentage Error (MAPE): 1.47%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.93
+Mean Absolute Percentage Error (MAPE): 0.97%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 33.49
+Mean Absolute Percentage Error (MAPE): 8.20%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 746.43
+Mean Absolute Percentage Error (MAPE): 184.85%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.68
+Mean Absolute Percentage Error (MAPE): 1.90%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.35
+Mean Absolute Percentage Error (MAPE): 1.31%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.04
+Mean Absolute Percentage Error (MAPE): 1.00%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 247.78
+Mean Absolute Percentage Error (MAPE): 62.15%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 592.77
+Mean Absolute Percentage Error (MAPE): 146.68%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.01
+Mean Absolute Percentage Error (MAPE): 1.72%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.26
+Mean Absolute Percentage Error (MAPE): 1.28%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 41.10
+Mean Absolute Percentage Error (MAPE): 9.91%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 375.19
+Mean Absolute Percentage Error (MAPE): 92.62%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1264.65
+Mean Absolute Percentage Error (MAPE): 314.79%
+
+The best is located at: models/rnn_baseline_hl1_hn32_lr0.01_e100_tMSFT.onnx
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(3.837721), 'MAPE': np.float32(0.95012474), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8373197069995513}, 'Ticker': 'MSFT', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 77.81
+Mean Absolute Percentage Error (MAPE): 18.75%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.64
+Mean Absolute Percentage Error (MAPE): 2.21%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.53
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.72
+Mean Absolute Percentage Error (MAPE): 0.93%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.51
+Mean Absolute Percentage Error (MAPE): 2.11%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 39.95
+Mean Absolute Percentage Error (MAPE): 9.61%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.13
+Mean Absolute Percentage Error (MAPE): 1.77%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.17
+Mean Absolute Percentage Error (MAPE): 1.03%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.56
+Mean Absolute Percentage Error (MAPE): 0.89%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.14
+Mean Absolute Percentage Error (MAPE): 3.28%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 14.69
+Mean Absolute Percentage Error (MAPE): 3.78%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.63
+Mean Absolute Percentage Error (MAPE): 1.64%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.18
+Mean Absolute Percentage Error (MAPE): 1.04%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.72
+Mean Absolute Percentage Error (MAPE): 0.93%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 304.84
+Mean Absolute Percentage Error (MAPE): 75.82%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.93
+Mean Absolute Percentage Error (MAPE): 3.59%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.22
+Mean Absolute Percentage Error (MAPE): 1.53%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.14
+Mean Absolute Percentage Error (MAPE): 1.02%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.78
+Mean Absolute Percentage Error (MAPE): 0.95%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 64.22
+Mean Absolute Percentage Error (MAPE): 16.20%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.60
+Mean Absolute Percentage Error (MAPE): 2.44%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.45
+Mean Absolute Percentage Error (MAPE): 1.34%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.52
+Mean Absolute Percentage Error (MAPE): 1.11%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 63.31
+Mean Absolute Percentage Error (MAPE): 15.78%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 353.97
+Mean Absolute Percentage Error (MAPE): 88.24%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.62
+Mean Absolute Percentage Error (MAPE): 2.14%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.99
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.16
+Mean Absolute Percentage Error (MAPE): 1.04%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.43
+Mean Absolute Percentage Error (MAPE): 2.62%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 651.35
+Mean Absolute Percentage Error (MAPE): 162.03%
+
+The best is located at: models/rnn_gru_hl1_hn64_lr0.01_e100_tMSFT.onnx
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(3.5601213), 'MAPE': np.float32(0.8866737), 'num_layers': 1, 'num_neurons': 64, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8976086750008108}, 'Ticker': 'MSFT', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 73.66
+Mean Absolute Percentage Error (MAPE): 17.75%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.18
+Mean Absolute Percentage Error (MAPE): 2.30%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.32
+Mean Absolute Percentage Error (MAPE): 1.32%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.58
+Mean Absolute Percentage Error (MAPE): 1.14%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.00
+Mean Absolute Percentage Error (MAPE): 1.47%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 53.86
+Mean Absolute Percentage Error (MAPE): 12.97%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.75
+Mean Absolute Percentage Error (MAPE): 2.19%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.89
+Mean Absolute Percentage Error (MAPE): 1.44%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.66
+Mean Absolute Percentage Error (MAPE): 0.91%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.77
+Mean Absolute Percentage Error (MAPE): 0.94%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.20
+Mean Absolute Percentage Error (MAPE): 3.38%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.76
+Mean Absolute Percentage Error (MAPE): 2.18%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.15
+Mean Absolute Percentage Error (MAPE): 1.26%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.79
+Mean Absolute Percentage Error (MAPE): 0.94%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.43
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.21
+Mean Absolute Percentage Error (MAPE): 3.10%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.88
+Mean Absolute Percentage Error (MAPE): 1.95%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.77
+Mean Absolute Percentage Error (MAPE): 1.17%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.58
+Mean Absolute Percentage Error (MAPE): 0.89%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 63.62
+Mean Absolute Percentage Error (MAPE): 16.40%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.54
+Mean Absolute Percentage Error (MAPE): 2.91%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.98
+Mean Absolute Percentage Error (MAPE): 1.99%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.27
+Mean Absolute Percentage Error (MAPE): 1.05%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5.71
+Mean Absolute Percentage Error (MAPE): 1.41%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 96.24
+Mean Absolute Percentage Error (MAPE): 23.32%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.85
+Mean Absolute Percentage Error (MAPE): 2.72%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.45
+Mean Absolute Percentage Error (MAPE): 1.58%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 4.31
+Mean Absolute Percentage Error (MAPE): 1.06%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.43
+Mean Absolute Percentage Error (MAPE): 2.29%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 624.17
+Mean Absolute Percentage Error (MAPE): 155.66%
+
+The best is located at: models/rnn_lstm_hl1_hn256_lr0.01_e100_tMSFT.onnx
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 3 of general pattern rewrite rules.
+{'MAE': np.float32(3.582737), 'MAPE': np.float32(0.8925569), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.6647509260001243}, 'Ticker': 'MSFT', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: TSLA
+
+
+MODEL TYPE IS: rnn_baseline
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 47.63
+Mean Absolute Percentage Error (MAPE): 19.24%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.87
+Mean Absolute Percentage Error (MAPE): 4.75%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.31
+Mean Absolute Percentage Error (MAPE): 3.65%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.54
+Mean Absolute Percentage Error (MAPE): 3.95%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 68.04
+Mean Absolute Percentage Error (MAPE): 29.75%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 39.16
+Mean Absolute Percentage Error (MAPE): 15.82%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.78
+Mean Absolute Percentage Error (MAPE): 4.26%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.76
+Mean Absolute Percentage Error (MAPE): 3.54%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.86
+Mean Absolute Percentage Error (MAPE): 3.19%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 526.86
+Mean Absolute Percentage Error (MAPE): 236.79%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 30.02
+Mean Absolute Percentage Error (MAPE): 12.40%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.54
+Mean Absolute Percentage Error (MAPE): 4.47%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.35
+Mean Absolute Percentage Error (MAPE): 3.85%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.96
+Mean Absolute Percentage Error (MAPE): 5.20%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 427.80
+Mean Absolute Percentage Error (MAPE): 193.58%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.29
+Mean Absolute Percentage Error (MAPE): 6.22%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.25
+Mean Absolute Percentage Error (MAPE): 4.31%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.76
+Mean Absolute Percentage Error (MAPE): 3.15%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 73.61
+Mean Absolute Percentage Error (MAPE): 32.67%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 112.77
+Mean Absolute Percentage Error (MAPE): 42.21%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.99
+Mean Absolute Percentage Error (MAPE): 5.24%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.89
+Mean Absolute Percentage Error (MAPE): 4.23%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.99
+Mean Absolute Percentage Error (MAPE): 3.25%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 206.69
+Mean Absolute Percentage Error (MAPE): 83.17%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 72.83
+Mean Absolute Percentage Error (MAPE): 24.92%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.15
+Mean Absolute Percentage Error (MAPE): 4.76%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.85
+Mean Absolute Percentage Error (MAPE): 3.92%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 60.17
+Mean Absolute Percentage Error (MAPE): 20.40%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 124.58
+Mean Absolute Percentage Error (MAPE): 47.36%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 5304.84
+Mean Absolute Percentage Error (MAPE): 2320.88%
+
+The best is located at: models/rnn_baseline_hl1_hn256_lr0.001_e100_tTSLA.onnx
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(7.76178), 'MAPE': np.float32(3.153361), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8500087840002379}, 'Ticker': 'TSLA', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 146.38
+Mean Absolute Percentage Error (MAPE): 57.06%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.95
+Mean Absolute Percentage Error (MAPE): 5.34%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.56
+Mean Absolute Percentage Error (MAPE): 3.83%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.61
+Mean Absolute Percentage Error (MAPE): 3.92%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.03
+Mean Absolute Percentage Error (MAPE): 3.62%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 49.31
+Mean Absolute Percentage Error (MAPE): 17.44%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.77
+Mean Absolute Percentage Error (MAPE): 5.23%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.84
+Mean Absolute Percentage Error (MAPE): 4.03%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.67
+Mean Absolute Percentage Error (MAPE): 3.52%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.35
+Mean Absolute Percentage Error (MAPE): 3.88%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 41.45
+Mean Absolute Percentage Error (MAPE): 17.18%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.50
+Mean Absolute Percentage Error (MAPE): 4.57%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.29
+Mean Absolute Percentage Error (MAPE): 3.32%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.53
+Mean Absolute Percentage Error (MAPE): 4.57%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.97
+Mean Absolute Percentage Error (MAPE): 3.23%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 25.11
+Mean Absolute Percentage Error (MAPE): 10.80%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.77
+Mean Absolute Percentage Error (MAPE): 4.49%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.73
+Mean Absolute Percentage Error (MAPE): 3.15%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.85
+Mean Absolute Percentage Error (MAPE): 3.19%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 100.13
+Mean Absolute Percentage Error (MAPE): 43.40%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.67
+Mean Absolute Percentage Error (MAPE): 7.27%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.52
+Mean Absolute Percentage Error (MAPE): 4.38%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.11
+Mean Absolute Percentage Error (MAPE): 3.26%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.79
+Mean Absolute Percentage Error (MAPE): 7.82%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 705.23
+Mean Absolute Percentage Error (MAPE): 307.54%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.18
+Mean Absolute Percentage Error (MAPE): 6.18%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.82
+Mean Absolute Percentage Error (MAPE): 4.16%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.47
+Mean Absolute Percentage Error (MAPE): 3.74%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.09
+Mean Absolute Percentage Error (MAPE): 5.63%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2542.22
+Mean Absolute Percentage Error (MAPE): 1101.46%
+
+The best is located at: models/rnn_gru_hl1_hn256_lr0.001_e100_tTSLA.onnx
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(7.730913), 'MAPE': np.float32(3.1500857), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.7850917409996327}, 'Ticker': 'TSLA', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 72.77
+Mean Absolute Percentage Error (MAPE): 24.58%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.31
+Mean Absolute Percentage Error (MAPE): 7.53%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.59
+Mean Absolute Percentage Error (MAPE): 4.06%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.68
+Mean Absolute Percentage Error (MAPE): 3.11%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.95
+Mean Absolute Percentage Error (MAPE): 5.23%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 57.24
+Mean Absolute Percentage Error (MAPE): 19.35%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.62
+Mean Absolute Percentage Error (MAPE): 6.56%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.61
+Mean Absolute Percentage Error (MAPE): 3.69%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.71
+Mean Absolute Percentage Error (MAPE): 3.12%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 28.80
+Mean Absolute Percentage Error (MAPE): 12.93%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 43.75
+Mean Absolute Percentage Error (MAPE): 18.57%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.80
+Mean Absolute Percentage Error (MAPE): 5.65%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.19
+Mean Absolute Percentage Error (MAPE): 3.91%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.96
+Mean Absolute Percentage Error (MAPE): 3.24%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.46
+Mean Absolute Percentage Error (MAPE): 4.31%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 29.25
+Mean Absolute Percentage Error (MAPE): 12.12%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.77
+Mean Absolute Percentage Error (MAPE): 5.15%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 9.37
+Mean Absolute Percentage Error (MAPE): 3.64%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.23
+Mean Absolute Percentage Error (MAPE): 3.38%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 255.13
+Mean Absolute Percentage Error (MAPE): 118.27%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 27.49
+Mean Absolute Percentage Error (MAPE): 11.22%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.54
+Mean Absolute Percentage Error (MAPE): 4.48%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.71
+Mean Absolute Percentage Error (MAPE): 3.47%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.37
+Mean Absolute Percentage Error (MAPE): 3.41%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 235.34
+Mean Absolute Percentage Error (MAPE): 109.63%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 20.06
+Mean Absolute Percentage Error (MAPE): 8.26%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.62
+Mean Absolute Percentage Error (MAPE): 5.36%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.23
+Mean Absolute Percentage Error (MAPE): 4.12%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 149.23
+Mean Absolute Percentage Error (MAPE): 70.83%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2646.66
+Mean Absolute Percentage Error (MAPE): 1161.41%
+
+The best is located at: models/rnn_lstm_hl1_hn32_lr0.01_e100_tTSLA.onnx
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 3 of general pattern rewrite rules.
+{'MAE': np.float32(7.6834016), 'MAPE': np.float32(3.1110315), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.9473071339998569}, 'Ticker': 'TSLA', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: NDAQ
+
+
+MODEL TYPE IS: rnn_baseline
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.98
+Mean Absolute Percentage Error (MAPE): 11.85%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.10
+Mean Absolute Percentage Error (MAPE): 1.76%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.73
+Mean Absolute Percentage Error (MAPE): 1.15%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.54
+Mean Absolute Percentage Error (MAPE): 0.86%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 17.45
+Mean Absolute Percentage Error (MAPE): 30.34%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.37
+Mean Absolute Percentage Error (MAPE): 13.45%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.11
+Mean Absolute Percentage Error (MAPE): 1.78%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.71
+Mean Absolute Percentage Error (MAPE): 1.12%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.64
+Mean Absolute Percentage Error (MAPE): 1.00%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 41.81
+Mean Absolute Percentage Error (MAPE): 64.45%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.60
+Mean Absolute Percentage Error (MAPE): 4.24%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.05
+Mean Absolute Percentage Error (MAPE): 1.67%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.64
+Mean Absolute Percentage Error (MAPE): 1.00%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.53
+Mean Absolute Percentage Error (MAPE): 4.05%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 48.07
+Mean Absolute Percentage Error (MAPE): 79.34%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.47
+Mean Absolute Percentage Error (MAPE): 2.38%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.99
+Mean Absolute Percentage Error (MAPE): 1.58%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.72
+Mean Absolute Percentage Error (MAPE): 1.13%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.34
+Mean Absolute Percentage Error (MAPE): 26.92%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 48.72
+Mean Absolute Percentage Error (MAPE): 75.51%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.37
+Mean Absolute Percentage Error (MAPE): 2.21%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.99
+Mean Absolute Percentage Error (MAPE): 1.60%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.49
+Mean Absolute Percentage Error (MAPE): 2.29%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.16
+Mean Absolute Percentage Error (MAPE): 17.28%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 293.94
+Mean Absolute Percentage Error (MAPE): 472.68%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.24
+Mean Absolute Percentage Error (MAPE): 1.99%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.80
+Mean Absolute Percentage Error (MAPE): 1.24%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.52
+Mean Absolute Percentage Error (MAPE): 18.54%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 28.18
+Mean Absolute Percentage Error (MAPE): 42.64%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1665.27
+Mean Absolute Percentage Error (MAPE): 2666.55%
+
+The best is located at: models/rnn_baseline_hl1_hn32_lr0.01_e100_tNDAQ.onnx
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNBaseline([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(0.5398726), 'MAPE': np.float32(0.8624613), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8426205160012614}, 'Ticker': 'NDAQ', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 12.23
+Mean Absolute Percentage Error (MAPE): 17.36%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.12
+Mean Absolute Percentage Error (MAPE): 1.80%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.83
+Mean Absolute Percentage Error (MAPE): 1.32%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.50
+Mean Absolute Percentage Error (MAPE): 0.80%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.59
+Mean Absolute Percentage Error (MAPE): 0.92%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 8.10
+Mean Absolute Percentage Error (MAPE): 12.08%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.08
+Mean Absolute Percentage Error (MAPE): 1.74%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.89
+Mean Absolute Percentage Error (MAPE): 1.43%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.63
+Mean Absolute Percentage Error (MAPE): 0.96%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.52
+Mean Absolute Percentage Error (MAPE): 0.84%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 6.16
+Mean Absolute Percentage Error (MAPE): 10.20%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.03
+Mean Absolute Percentage Error (MAPE): 1.65%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.69
+Mean Absolute Percentage Error (MAPE): 1.08%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.66
+Mean Absolute Percentage Error (MAPE): 1.03%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.07
+Mean Absolute Percentage Error (MAPE): 3.50%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.66
+Mean Absolute Percentage Error (MAPE): 4.51%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.11
+Mean Absolute Percentage Error (MAPE): 1.76%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.59
+Mean Absolute Percentage Error (MAPE): 0.94%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.48
+Mean Absolute Percentage Error (MAPE): 0.78%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 64.48
+Mean Absolute Percentage Error (MAPE): 102.82%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.67
+Mean Absolute Percentage Error (MAPE): 2.68%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.03
+Mean Absolute Percentage Error (MAPE): 1.67%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.77
+Mean Absolute Percentage Error (MAPE): 1.23%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 13.16
+Mean Absolute Percentage Error (MAPE): 20.96%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 44.53
+Mean Absolute Percentage Error (MAPE): 72.23%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.41
+Mean Absolute Percentage Error (MAPE): 2.23%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.02
+Mean Absolute Percentage Error (MAPE): 1.61%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.56
+Mean Absolute Percentage Error (MAPE): 0.87%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 35.89
+Mean Absolute Percentage Error (MAPE): 57.09%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 30.97
+Mean Absolute Percentage Error (MAPE): 49.62%
+
+The best is located at: models/rnn_gru_hl1_hn256_lr0.01_e100_tNDAQ.onnx
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNGRU([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 2 of general pattern rewrite rules.
+{'MAE': np.float32(0.4831338), 'MAPE': np.float32(0.77515143), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.61672924999948}, 'Ticker': 'NDAQ', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 16.23
+Mean Absolute Percentage Error (MAPE): 23.55%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.74
+Mean Absolute Percentage Error (MAPE): 2.82%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.02
+Mean Absolute Percentage Error (MAPE): 1.64%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.61
+Mean Absolute Percentage Error (MAPE): 0.97%
+
+
+Results for num_layers: 1, num_neurons: 32, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.56
+Mean Absolute Percentage Error (MAPE): 0.89%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 10.52
+Mean Absolute Percentage Error (MAPE): 14.94%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.51
+Mean Absolute Percentage Error (MAPE): 2.43%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.02
+Mean Absolute Percentage Error (MAPE): 1.62%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.52
+Mean Absolute Percentage Error (MAPE): 0.83%
+
+
+Results for num_layers: 1, num_neurons: 64, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.63
+Mean Absolute Percentage Error (MAPE): 0.97%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.92
+Mean Absolute Percentage Error (MAPE): 6.73%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.38
+Mean Absolute Percentage Error (MAPE): 2.23%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.99
+Mean Absolute Percentage Error (MAPE): 1.58%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.61
+Mean Absolute Percentage Error (MAPE): 0.97%
+
+
+Results for num_layers: 1, num_neurons: 128, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.04
+Mean Absolute Percentage Error (MAPE): 1.64%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.27
+Mean Absolute Percentage Error (MAPE): 5.34%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.32
+Mean Absolute Percentage Error (MAPE): 2.12%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.91
+Mean Absolute Percentage Error (MAPE): 1.46%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.51
+Mean Absolute Percentage Error (MAPE): 0.81%
+
+
+Results for num_layers: 1, num_neurons: 256, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 29.79
+Mean Absolute Percentage Error (MAPE): 45.22%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 3.26
+Mean Absolute Percentage Error (MAPE): 5.32%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.24
+Mean Absolute Percentage Error (MAPE): 2.00%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 0.86
+Mean Absolute Percentage Error (MAPE): 1.34%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 7.68
+Mean Absolute Percentage Error (MAPE): 12.71%
+
+
+Results for num_layers: 1, num_neurons: 512, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 11.50
+Mean Absolute Percentage Error (MAPE): 20.27%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 1e-05
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 2.44
+Mean Absolute Percentage Error (MAPE): 3.91%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.0001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.26
+Mean Absolute Percentage Error (MAPE): 2.01%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.001
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 1.27
+Mean Absolute Percentage Error (MAPE): 1.87%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.01
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 15.95
+Mean Absolute Percentage Error (MAPE): 26.07%
+
+
+Results for num_layers: 1, num_neurons: 1024, learning_rate: 0.1
+[*********************100%***********************]  1 of 1 completed
+Mean Absolute Error (MAE): 153.25
+Mean Absolute Percentage Error (MAPE): 247.61%
+
+The best is located at: models/rnn_lstm_hl1_hn256_lr0.01_e100_tNDAQ.onnx
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`...
+/usr/lib/python3.12/contextlib.py:158: UserWarning: The tensor attributes self.rnn._flat_weights[0], self.rnn._flat_weights[1], self.rnn._flat_weights[2], self.rnn._flat_weights[3] were assigned during export. Such attributes must be registered as buffers using the `register_buffer` API (https://pytorch.org/docs/stable/generated/torch.nn.Module.html#torch.nn.Module.register_buffer).
+  self.gen.throw(value)
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=False)`... ❌
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`...
+[torch.onnx] Obtain model graph for `RNNLSTM([...]` with `torch.export.export(..., strict=True)`... ✅
+[torch.onnx] Run decomposition...
+[torch.onnx] Run decomposition... ✅
+[torch.onnx] Translate the graph into ONNX...
+[torch.onnx] Translate the graph into ONNX... ✅
+Applied 3 of general pattern rewrite rules.
+{'MAE': np.float32(0.5135993), 'MAPE': np.float32(0.8134965), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.666199979999874}, 'Ticker': 'NDAQ', 'model_type': 'rnn_lstm'}
+
