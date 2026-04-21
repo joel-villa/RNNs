@@ -89,7 +89,7 @@ def plot_training_losses(loss_dict, type):
     plt.title(f"Training Loss Over Epochs ({type})")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
-    # plt.yscale('log')
+    plt.yscale('log')
     plt.legend()
     plt.grid(True)
 
@@ -141,12 +141,14 @@ if __name__ == "__main__":
             case _:
                 print(f"Yo make sure this model exists: {model_type}")
 
-        n_layers, h_size, lr = best_overall[model_type]
+        n_layers, h_size, lr = best_overall[model_type] # Best overall 
 
         losses = {}
 
         for ticker in stocks:
             #TODO: use best individual ie best_params[] 
+            # n_layers, h_size, lr = best_params[ticker][model_type]  #Best (more differing per dataset)
+
             train_set, test_set = npz_load(ticker=ticker)
 
             train_dataloader = DataLoader(
