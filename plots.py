@@ -146,6 +146,7 @@ if __name__ == "__main__":
         losses = {}
 
         for ticker in stocks:
+            #TODO: use best individual ie best_params[] 
             train_set, test_set = npz_load(ticker=ticker)
 
             train_dataloader = DataLoader(
