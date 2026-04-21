@@ -10,6 +10,8 @@ from load_data import *
 from rnn_testing import test_model
 from onnx_util import *
 
+import onnxruntime as ort
+
 BATCH_SIZE = 32
 REPORT_EVERY = 5000
 
@@ -192,40 +194,128 @@ def big_sweep():
 
             print(best_result)
 
-if __name__ == "__main__":
-   
-    train_set, test_set = load_AAPL()
+def get_acc(session, x, y):
+    # Get input and output names
+    input_name = session.get_inputs()[0].name
+    output_name = session.get_outputs()[0].name
 
-    train_dataloader = DataLoader(
-        train_set,
-        batch_size=BATCH_SIZE,
-        shuffle=True
-    )
+    # Generate predictions for test data
+    logits = session.run([output_name], {input_name: x})[0]
+    probs = sigmoid(logits) # probabilities from logits
+    y_preds = (probs >= 0.5).astype(np.float32)
 
-    test_dataloader = DataLoader(
-        test_set,
-        batch_size=BATCH_SIZE,
-        shuffle=False
-    )
+    return (y_preds == y).mean()
 
-    ticker = "AAPL"
-    model_type = "rnn_baseline"
+def test_fnn(onnx_path="models/baseline.onnx"):
+    # Create an inference session
+    session = ort.InferenceSession(onnx_path)
+
+    # Get data
+    x_train, y_train, x_test, y_test = npz_load()
+    x_train, y_train = prepare_data(x_train, y_train)
+    x_test, y_test = prepare_data(x_test, y_test)
+
+    train_accuracy = get_acc(session, x_train, y_train)
+    test_accuracy = get_acc(session, x_test, y_test)
+
+    return test_accuracy, train_accuracy
+
+def get_training_errors():
+
+    tickers = ["AAPL", "MSFT", "TSLA", "NDAQ"]
+    model_types = ["rnn_baseline", "rnn_gru", "rnn_lstm"]
 
     num_hidden_layers = [1, 2, 3, 4, 5]
     num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
     learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
 
-    best_result = parameter_search(
-        train_dataloader=train_dataloader,
-        test_set=test_set,
-        num_hidden_layers=num_hidden_layers,
-        num_hidden_neurons=num_hidden_neurons,
-        learning_rates=learning_rates,
-        model_type=model_type,
-        num_epochs=100,
-        ticker=ticker)
+    for ticker in tickers:
+        print()
+        print(f"MODEL USING STOCK: {ticker}")
+        print()
 
-    print(best_result)
+        train_set, test_set = npz_load(ticker)
+        
+        for model_type in model_types:
+            print()
+            print(f"MODEL TYPE IS: {model_type}")
+            print()
+
+            if model_type == "rnn_lstm":
+                num_hidden_layers = [1]
+
+            for layers in num_hidden_layers:
+                for neurons in num_hidden_neurons:
+                    for learning_rate in learning_rates:
+
+                        model_path = get_path(
+                            model_type=model_type,
+                            num_hidden_layers=layers,
+                            num_hidden_neurons=neurons,
+                            learning_rate=learning_rate,
+                            num_epochs=100,
+                            ticker=ticker
+                        )
+
+                        session = ort.InferenceSession(model_path)
+                        
+
+                        mae, mape = test_session(
+                            model=model,
+                            test_set=train_set, 
+                            # device=device,
+                            ticker=ticker
+                        )
+                        print()
+
+                        results = {
+                            "MAE"           : mae,
+                            "MAPE"          : mape,
+                            "num_layers"    : layers,
+                            "num_neurons"   : neurons,
+                            "Details"       : details,
+                            "Ticker"        : ticker,
+                            "model_type"    : model_type
+                        }
+
+                        print(results)
+    
+
+if __name__ == "__main__":
+    get_training_errors()
+   
+    # train_set, test_set = load_AAPL()
+
+    # train_dataloader = DataLoader(
+    #     train_set,
+    #     batch_size=BATCH_SIZE,
+    #     shuffle=True
+    # )
+
+    # test_dataloader = DataLoader(
+    #     test_set,
+    #     batch_size=BATCH_SIZE,
+    #     shuffle=False
+    # )
+
+    # ticker = "AAPL"
+    # model_type = "rnn_baseline"
+
+    # num_hidden_layers = [1, 2, 3, 4, 5]
+    # num_hidden_neurons = [32, 64, 128, 256, 512, 1024]
+    # learning_rates = [1e-5, 1e-4, 1e-3, 1e-2, 1e-1]
+
+    # best_result = parameter_search(
+    #     train_dataloader=train_dataloader,
+    #     test_set=test_set,
+    #     num_hidden_layers=num_hidden_layers,
+    #     num_hidden_neurons=num_hidden_neurons,
+    #     learning_rates=learning_rates,
+    #     model_type=model_type,
+    #     num_epochs=100,
+    #     ticker=ticker)
+
+    # print(best_result)
 
 
 
