@@ -100,9 +100,32 @@ if __name__ == "__main__":
     stocks = ["AAPL", "MSFT", "TSLA", "NDAQ"]
 
     best_params = {
-        "rnn_baseline" : (3, 512, 0.0001),
-        "rnn_gru"      : (3, 256, 0.001),
-        "rnn_lstm"     : (2, 256, 0.001)
+        "AAPL" : {
+            "rnn_baseline" : (2, 512, 0.001), 
+            "rnn_gru"      : (1,  32, 0.01),
+            "rnn_lstm"     : (1,  32, 0.1)
+        },
+        "MSFT" :  {
+            "rnn_baseline" : (1,  32, 0.01), 
+            "rnn_gru"      : (1,  64, 0.01),
+            "rnn_lstm"     : (1, 256, 0.01)
+        },
+        "TSLA" :  {
+            "rnn_baseline" : (1, 256, 0.001), 
+            "rnn_gru"      : (1, 256, 0.001),
+            "rnn_lstm"     : (1,  32, 0.01)
+        },
+        "NDAQ" :  {
+            "rnn_baseline" : (1,  32, 0.01), 
+            "rnn_gru"      : (1, 256, 0.01),
+            "rnn_lstm"     : (1, 256, 0.01)
+        }
+    }
+
+    best_overall = {
+        "rnn_baseline" : (1,  32, 0.01), 
+        "rnn_gru"      : (1, 256, 0.01),
+        "rnn_lstm"     : (1, 256, 0.01)
     }
 
     BATCH_SIZE = 32
@@ -118,7 +141,7 @@ if __name__ == "__main__":
             case _:
                 print(f"Yo make sure this model exists: {model_type}")
 
-        n_layers, h_size, lr = best_params[model_type]
+        n_layers, h_size, lr = best_overall[model_type]
 
         losses = {}
 

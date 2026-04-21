@@ -1,0 +1,19 @@
+{'MAE': np.float32(2.16381), 'MAPE': np.float32(1.0401566), 'num_layers': 2, 'num_neurons': 512, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 2.6677608390000387}, 'Ticker': 'AAPL', 'model_type': 'rnn_baseline'}
+{'MAE': np.float32(2.1390123), 'MAPE': np.float32(1.0259222), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8925177959990833}, 'Ticker': 'AAPL', 'model_type': 'rnn_gru'}
+{'MAE': np.float32(2.2435088), 'MAPE': np.float32(1.0741012), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.1, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.0005655549994117}, 'Ticker': 'AAPL', 'model_type': 'rnn_lstm'}
+
+
+{'MAE': np.float32(3.837721), 'MAPE': np.float32(0.95012474), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8373197069995513}, 'Ticker': 'MSFT', 'model_type': 'rnn_baseline'}
+{'MAE': np.float32(3.5601213), 'MAPE': np.float32(0.8866737), 'num_layers': 1, 'num_neurons': 64, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8976086750008108}, 'Ticker': 'MSFT', 'model_type': 'rnn_gru'}
+{'MAE': np.float32(3.582737), 'MAPE': np.float32(0.8925569), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.6647509260001243}, 'Ticker': 'MSFT', 'model_type': 'rnn_lstm'}
+
+
+
+{'MAE': np.float32(7.76178), 'MAPE': np.float32(3.153361), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8500087840002379}, 'Ticker': 'TSLA', 'model_type': 'rnn_baseline'}
+{'MAE': np.float32(7.730913), 'MAPE': np.float32(3.1500857), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.001, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.7850917409996327}, 'Ticker': 'TSLA', 'model_type': 'rnn_gru'}
+{'MAE': np.float32(7.6834016), 'MAPE': np.float32(3.1110315), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.9473071339998569}, 'Ticker': 'TSLA', 'model_type': 'rnn_lstm'}
+
+
+{'MAE': np.float32(0.5398726), 'MAPE': np.float32(0.8624613), 'num_layers': 1, 'num_neurons': 32, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 0.8426205160012614}, 'Ticker': 'NDAQ', 'model_type': 'rnn_baseline'}
+{'MAE': np.float32(0.4831338), 'MAPE': np.float32(0.77515143), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.61672924999948}, 'Ticker': 'NDAQ', 'model_type': 'rnn_gru'}
+{'MAE': np.float32(0.5135993), 'MAPE': np.float32(0.8134965), 'num_layers': 1, 'num_neurons': 256, 'Details': {'learning_rate': 0.01, 'batch_size': 32, 'num_epochs': 100, 'Training Time': 1.666199979999874}, 'Ticker': 'NDAQ', 'model_type': 'rnn_lstm'}
