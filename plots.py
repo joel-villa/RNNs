@@ -89,7 +89,7 @@ def plot_training_losses(loss_dict, type):
     plt.title(f"Training Loss Over Epochs ({type})")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
-    plt.yscale('log')
+    # plt.yscale('log')
     plt.legend()
     plt.grid(True)
 
@@ -100,25 +100,25 @@ if __name__ == "__main__":
     stocks = ["AAPL", "MSFT", "TSLA", "NDAQ"]
 
     best_params = {
-        "AAPL" : {
-            "rnn_baseline" : (2, 512, 0.001), 
-            "rnn_gru"      : (1,  32, 0.01),
-            "rnn_lstm"     : (1,  32, 0.1)
+        "AAPL": {
+            "rnn_baseline": (4, 1024, 0.0001),
+            "rnn_gru":      (2,  256, 0.001),
+            "rnn_lstm":     (1,  128, 0.01)
         },
-        "MSFT" :  {
-            "rnn_baseline" : (1,  32, 0.01), 
-            "rnn_gru"      : (1,  64, 0.01),
-            "rnn_lstm"     : (1, 256, 0.01)
+        "MSFT": {
+            "rnn_baseline": (1,   32, 0.01),
+            "rnn_gru":      (1,  512, 0.001),
+            "rnn_lstm":     (1,  256, 0.01)
         },
-        "TSLA" :  {
-            "rnn_baseline" : (1, 256, 0.001), 
-            "rnn_gru"      : (1, 256, 0.001),
-            "rnn_lstm"     : (1,  32, 0.01)
+        "TSLA": {
+            "rnn_baseline": (1,  512, 0.001),
+            "rnn_gru":      (1,  128, 0.001),
+            "rnn_lstm":     (1,   64, 0.1)
         },
-        "NDAQ" :  {
-            "rnn_baseline" : (1,  32, 0.01), 
-            "rnn_gru"      : (1, 256, 0.01),
-            "rnn_lstm"     : (1, 256, 0.01)
+        "NDAQ": {
+            "rnn_baseline": (1,   64, 0.01),
+            "rnn_gru":      (1,   64, 0.01),
+            "rnn_lstm":     (1,  256, 0.01)
         }
     }
 
