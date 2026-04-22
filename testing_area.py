@@ -1,13 +1,14 @@
 # do model training and testing here
 import torch
 from torch.utils.data import DataLoader
+import os
 
 from rnn_training import train_model
 from rnn_baseline import RNNBaseline
 from rnn_gru import RNNGRU
 from rnn_lstm import RNNLSTM
 from load_data import *
-from rnn_testing import test_model
+from rnn_testing import test_model, test_session
 from onnx_util import *
 
 import onnxruntime as ort
@@ -21,6 +22,7 @@ print(f"We are using: {device}")
 
 def parameter_search(
         train_dataloader,
+        train_set,
         test_set,
         num_hidden_layers,
         num_hidden_neurons,
@@ -30,10 +32,12 @@ def parameter_search(
         ticker="AAPL"):
 
     best_results = {
-        "MAE"           : 100.0,
-        "MAPE"          : 100.0,
-        "num_layers"    : 0.0,
-        "num_neurons"   : 0.0,
+        "Train MAE"     : 100.0,
+        "Train MAPE"    : 100.0,
+        "Test MAE"      : 100.0,
+        "Test MAPE"     : 100.0,
+        "num_layers"    : 0,
+        "num_neurons"   : 0,
         "Details"       : None,
         "Ticker"        : ticker,
         "model_type"    : model_type
@@ -72,7 +76,16 @@ def parameter_search(
                 print()
                 print(f"Results for num_layers: {layers}, num_neurons: {neurons}, learning_rate: {learning_rate}")
 
-                mae, mape = test_model(
+                print("Training Accuracy")
+                train_mae, train_mape = test_model(
+                    model=model,
+                    test_set=train_set, 
+                    device=device,
+                    ticker=ticker
+                )
+
+                print("Test Accuracy")
+                test_mae, test_mape = test_model(
                     model=model,
                     test_set=test_set, 
                     device=device,
@@ -80,12 +93,12 @@ def parameter_search(
                 )
                 print()
 
-        
-
-                if best_results["MAPE"] > mape:
+                if best_results["Test MAPE"] > test_mape:
                     best_results = {
-                        "MAE"           : mae,
-                        "MAPE"          : mape,
+                        "Train MAE"           : train_mae,
+                        "Train MAPE"          : train_mape,
+                        "Test MAE"           : test_mae,
+                        "Test MAPE"          : test_mape,
                         "num_layers"    : layers,
                         "num_neurons"   : neurons,
                         "Details"       : details,
@@ -184,6 +197,7 @@ def big_sweep():
 
             best_result = parameter_search(
                 train_dataloader=train_dataloader,
+                train_set=train_set,
                 test_set=test_set,
                 num_hidden_layers=num_hidden_layers,
                 num_hidden_neurons=num_hidden_neurons,
@@ -194,32 +208,7 @@ def big_sweep():
 
             print(best_result)
 
-def get_acc(session, x, y):
-    # Get input and output names
-    input_name = session.get_inputs()[0].name
-    output_name = session.get_outputs()[0].name
-
-    # Generate predictions for test data
-    logits = session.run([output_name], {input_name: x})[0]
-    probs = sigmoid(logits) # probabilities from logits
-    y_preds = (probs >= 0.5).astype(np.float32)
-
-    return (y_preds == y).mean()
-
-def test_fnn(onnx_path="models/baseline.onnx"):
-    # Create an inference session
-    session = ort.InferenceSession(onnx_path)
-
-    # Get data
-    x_train, y_train, x_test, y_test = npz_load()
-    x_train, y_train = prepare_data(x_train, y_train)
-    x_test, y_test = prepare_data(x_test, y_test)
-
-    train_accuracy = get_acc(session, x_train, y_train)
-    test_accuracy = get_acc(session, x_test, y_test)
-
-    return test_accuracy, train_accuracy
-
+# dont use for now, its weird
 def get_training_errors():
 
     tickers = ["AAPL", "MSFT", "TSLA", "NDAQ"]
@@ -257,11 +246,15 @@ def get_training_errors():
                             ticker=ticker
                         )
 
+                        if not os.path.exists(model_path):
+                            # print(f"[SKIP] Path not found: {model_path}")
+                            continue
+
                         session = ort.InferenceSession(model_path)
                         
 
                         mae, mape = test_session(
-                            model=model,
+                            session=session,
                             test_set=train_set, 
                             # device=device,
                             ticker=ticker
@@ -273,7 +266,6 @@ def get_training_errors():
                             "MAPE"          : mape,
                             "num_layers"    : layers,
                             "num_neurons"   : neurons,
-                            "Details"       : details,
                             "Ticker"        : ticker,
                             "model_type"    : model_type
                         }
@@ -282,7 +274,8 @@ def get_training_errors():
     
 
 if __name__ == "__main__":
-    get_training_errors()
+    big_sweep()
+    # get_training_errors()
    
     # train_set, test_set = load_AAPL()
 

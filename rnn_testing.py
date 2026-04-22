@@ -41,12 +41,12 @@ def test_session(session, test_set, ticker):
     scaler, _ = get_scaler_and_prices(ticker)
 
     y_test, X_test = test_set.tensors
+    X_test = X_test.numpy().astype(np.float32)
 
     input_name = session.get_inputs()[0].name
     output_name = session.get_outputs()[0].name
 
     predictions = session.run([output_name], {input_name: X_test})[0]
-    predictions = predictions.numpy()
     y_test = y_test.numpy()
 
     predictions = scaler.inverse_transform(predictions)
