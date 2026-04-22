@@ -1,0 +1,97 @@
+We are using: cpu
+
+MODEL USING STOCK: AAPL
+
+
+MODEL TYPE IS: rnn_baseline
+
+Mean Absolute Error (MAE): 74.43
+Mean Absolute Percentage Error (MAPE): 35.09%
+
+{'MAE': np.float32(74.43456), 'MAPE': np.float32(35.091953), 'num_layers': 2, 'num_neurons': 512, 'Ticker': 'AAPL', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+Mean Absolute Error (MAE): 2098.53
+Mean Absolute Percentage Error (MAPE): 1043.10%
+
+{'MAE': np.float32(2098.533), 'MAPE': np.float32(1043.1036), 'num_layers': 1, 'num_neurons': 32, 'Ticker': 'AAPL', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+Mean Absolute Error (MAE): 131.08
+Mean Absolute Percentage Error (MAPE): 63.05%
+
+{'MAE': np.float32(131.07921), 'MAPE': np.float32(63.045216), 'num_layers': 1, 'num_neurons': 32, 'Ticker': 'AAPL', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: MSFT
+
+
+MODEL TYPE IS: rnn_baseline
+
+Mean Absolute Error (MAE): 1266.11
+Mean Absolute Percentage Error (MAPE): 315.94%
+
+{'MAE': np.float32(1266.1112), 'MAPE': np.float32(315.9427), 'num_layers': 1, 'num_neurons': 32, 'Ticker': 'MSFT', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+Mean Absolute Error (MAE): 692.31
+Mean Absolute Percentage Error (MAPE): 172.72%
+
+{'MAE': np.float32(692.30896), 'MAPE': np.float32(172.7216), 'num_layers': 1, 'num_neurons': 64, 'Ticker': 'MSFT', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+Mean Absolute Error (MAE): 625.63
+Mean Absolute Percentage Error (MAPE): 156.37%
+
+{'MAE': np.float32(625.627), 'MAPE': np.float32(156.3746), 'num_layers': 1, 'num_neurons': 256, 'Ticker': 'MSFT', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: TSLA
+
+
+MODEL TYPE IS: rnn_baseline
+
+Mean Absolute Error (MAE): 5301.37
+Mean Absolute Percentage Error (MAPE): 2309.34%
+
+{'MAE': np.float32(5301.37), 'MAPE': np.float32(2309.345), 'num_layers': 1, 'num_neurons': 256, 'Ticker': 'TSLA', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+Mean Absolute Error (MAE): 2609.25
+Mean Absolute Percentage Error (MAPE): 1124.86%
+
+{'MAE': np.float32(2609.2466), 'MAPE': np.float32(1124.8622), 'num_layers': 1, 'num_neurons': 256, 'Ticker': 'TSLA', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+Mean Absolute Error (MAE): 2643.18
+Mean Absolute Percentage Error (MAPE): 1155.41%
+
+{'MAE': np.float32(2643.1833), 'MAPE': np.float32(1155.4062), 'num_layers': 1, 'num_neurons': 32, 'Ticker': 'TSLA', 'model_type': 'rnn_lstm'}
+
+MODEL USING STOCK: NDAQ
+
+
+MODEL TYPE IS: rnn_baseline
+
+Mean Absolute Error (MAE): 1664.38
+Mean Absolute Percentage Error (MAPE): 2629.77%
+
+{'MAE': np.float32(1664.3779), 'MAPE': np.float32(2629.7732), 'num_layers': 1, 'num_neurons': 32, 'Ticker': 'NDAQ', 'model_type': 'rnn_baseline'}
+
+MODEL TYPE IS: rnn_gru
+
+Mean Absolute Error (MAE): 129.86
+Mean Absolute Percentage Error (MAPE): 203.96%
+
+{'MAE': np.float32(129.86084), 'MAPE': np.float32(203.961), 'num_layers': 1, 'num_neurons': 256, 'Ticker': 'NDAQ', 'model_type': 'rnn_gru'}
+
+MODEL TYPE IS: rnn_lstm
+
+Mean Absolute Error (MAE): 152.35
+Mean Absolute Percentage Error (MAPE): 242.99%
+
+{'MAE': np.float32(152.35223), 'MAPE': np.float32(242.98752), 'num_layers': 1, 'num_neurons': 256, 'Ticker': 'NDAQ', 'model_type': 'rnn_lstm'}
