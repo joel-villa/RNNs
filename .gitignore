@@ -3,4 +3,4 @@ __pycache__
 
 # Don't think you want' my notebook, but I could be persuaded
 *.ipynb
-/models/rnn_gru_hl1_hn32_lr0.01_e100_tAAPL.onnx.data
+rnn_gru_hl2_hn256_lr0.001_e100_tAAPL.onnx.data
