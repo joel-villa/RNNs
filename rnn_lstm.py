@@ -5,7 +5,7 @@ class RNNLSTM(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, num_layers):
         super(RNNLSTM, self).__init__()
 
-        self.rnn = self.rnn = nn.LSTM(
+        self.rnn = nn.LSTM(
             input_size,
             hidden_size,
             num_layers=num_layers,
